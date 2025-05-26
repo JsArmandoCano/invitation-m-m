@@ -1,0 +1,9 @@
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.line img {
+    width: 90%;
+}

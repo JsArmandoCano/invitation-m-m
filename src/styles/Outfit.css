@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+.outfit {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.outfit h2 {
+    font-family: "Gwendolyn", cursive;
+    font-size: 28px;
+    color: #084d6e;
+    text-align: center;
+}
+
+.outfit .content {
+    width: 100%;
+    display: flex;
+}
+
+.outfit .content .details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.outfit .content .details img {
+    width: 80px;
+    margin: 15px 0;
+}
+
+.outfit .content .details p {
+    font-family: "PT Serif", serif;
+    color: #084d6e;
+    font-size: 10px;
+    text-align: center;
+}
+
+@media (min-width: 786px) {
+    .outfit h2 {
+        font-size: 45px;
+    }
+
+    .outfit .content .details {
+        padding: 0 40px;
+    }
+
+    .outfit .content .details img {
+        width: 140px;
+    }
+
+    .outfit .content .details p {
+        font-size: 20px;
+    }
+}

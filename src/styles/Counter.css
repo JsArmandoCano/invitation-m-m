@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.counter {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.counter .count {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.counter .count div {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #084d6e;
+    color: #084d6e;
+    border-radius: 10px;
+}
+
+.counter .count div .number {
+    font-family: "PT Serif", serif;
+    font-size: 24px;
+}
+
+.counter .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.counter .img img {
+    width: 80px;
+}
+
+.counter h5 {
+    font-family: "PT Serif", serif;
+    color: #084d6e;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (min-width: 786px) {
+    .counter .count {
+        justify-content: center;
+    }
+
+    .counter .count div {
+        width: 120px;
+        height: 120px;
+        margin: 0 15px;
+    }
+
+    .counter .count div .number {
+        font-size: 40px;
+    }
+
+    .counter .count div .time {
+        font-size: 24px;
+    }
+
+    .counter .img img {
+        width: 140px;
+    }
+
+    .counter h5 {
+        font-size: 30px;
+    }
+}

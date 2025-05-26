@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.tickets {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tickets .content {
+    position: relative;
+    width: 90%;
+    background-color: #084d6e;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+}
+
+.tickets .content .name {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.tickets .content .num {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.tickets .content .name p {
+    font-family: "PT Serif", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.tickets .content .num p {
+    font-family: "PT Serif", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.tickets .content .num h4 {
+    font-family: "PT Serif", serif;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.tickets .content img {
+    position: absolute;
+    bottom: -12px;
+    right: -8px;
+    width: 70px;
+}
+
+@media (min-width: 786px) {
+    .tickets .content .name {
+        width: 50%;
+    }
+
+    .tickets .content .num {
+        width: 50%;
+    }
+
+    .tickets .content .name p {
+        font-size: 36px;
+    }
+
+    .tickets .content .num p {
+        font-size: 28px;
+    }
+
+    .tickets .content .num h4 {
+        font-size: 70px;
+    }
+
+    .tickets .content img {
+        bottom: -20px;
+        right: -14px;
+        width: 120px;
+    }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.pharase {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pharase .content {
+    position: relative;
+    width: 85%;
+}
+
+.pharase .content p {
+    font-family: "PT Serif", serif;
+    color: #084d6e;
+    text-align: center;
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.pharase .content img {
+    width: 100%;
+}
+
+@media (min-width: 786px) {
+    .pharase .content p {
+        font-size: 26px;
+    }
+}

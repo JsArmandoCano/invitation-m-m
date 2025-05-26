@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+.gift {
+    width: 100%;
+    background-color: #084d6e;
+    padding: 15px 0;
+    margin-top: 15px;
+}
+
+.gift h2 {
+    font-family: "Gwendolyn", cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.gift h6 {
+    font-family: "PT Serif", serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 15px;
+}
+
+.gift .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gift .content img {
+    width: 100px;
+}
+
+.gift .content div {
+    margin-left: 10px;
+}
+
+.gift .content div p {
+    font-family: "PT Serif", serif;
+    color: #fff;
+    font-size: 14px;
+}
+
+@media (min-width: 786px) {
+    .gift {
+        margin-top: 30px;
+    }
+
+    .gift h2 {
+        font-size: 50px;
+    }
+
+    .gift h6 {
+        font-size: 20px;
+    }
+
+    .gift .content img {
+        width: 160px;
+    }
+
+    .gift .content div {
+        margin-left: 10px;
+    }
+
+    .gift .content div p {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.place {
+    width: 100%;
+    background-color: #084d6e;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    margin-bottom: 20px;
+}
+
+.place .content {
+    width: 80%;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.place .content h2 {
+    font-family: "Gwendolyn", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #084d6e;
+    font-weight: 700;
+}
+
+.place .content .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.place .content .img img {
+    width: 100px;
+}
+
+.place .content p {
+    font-family: "PT Serif", serif;
+    color: #084d6e;
+    text-align: center;
+    font-size: 16px;
+}
+
+.place .content .location {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.place .content .location img {
+    width: 45px;
+}
+
+.place .content .location a {
+    font-family: "PT Serif", serif;
+    color: #084d6e;
+    font-size: 15px;
+}
+
+@media (min-width: 786px) {
+    .place .content {
+        width: 60%;
+    }
+
+    .place .content h2 {
+        font-size: 50px;
+    }
+
+    .place .content .img img {
+        width: 140px;
+    }
+
+    .place .content p {
+        font-size: 22px;
+    }
+
+    .place .content .location img {
+        width: 60px;
+    }
+
+    .place .content .location a {
+        font-size: 20px;
+    }
+}
