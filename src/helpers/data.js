@@ -88,8 +88,8 @@ const data = [
     { id: "87", invited: 'Anette Olvera', tickets: '3' },
     { id: "88", invited: 'Elio Hernández', tickets: '2' },
     { id: "89", invited: 'David Cuevas', tickets: '2' },
-    { id: "89", invited: 'Familia Jiménez Martínez', tickets: '4' },
-    { id: "89", invited: 'Zoé Sánchez', tickets: '2' },
+    { id: "90", invited: 'Familia Jiménez Martínez', tickets: '4' },
+    { id: "91", invited: 'Zoé Sánchez', tickets: '2' },
 ];
 
 export default data;
