@@ -47,7 +47,7 @@ const data = [
     { id: "46", invited: 'Ricardo Maldonado García', tickets: '3' },
     { id: "47", invited: 'Familia Hernández Rodríguez', tickets: '2' },
     { id: "48", invited: 'Daniela Huitrón', tickets: '1' },
-    { id: "49", invited: 'Abraham González', tickets: '2' },
+    { id: "49", invited: 'Familia González Reyes', tickets: '2' },
     { id: "50", invited: 'Familia Rodríguez Villa', tickets: '2' },
     { id: "51", invited: 'Familia Rodríguez Escoto', tickets: '2' },
     { id: "52", invited: 'Pablo Muñoz', tickets: '1' },
