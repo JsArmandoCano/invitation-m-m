@@ -11,7 +11,7 @@ const data = [
     { id: "10", invited: 'Ernesto López García', tickets: '2' },
     { id: "11", invited: 'Miguel Martínez', tickets: '1' },
     { id: "12", invited: 'Joel Sánchez', tickets: '2' },
-    { id: "13", invited: 'Cayetano Moises Guerro Márquez', tickets: '2' },
+    { id: "13", invited: 'Familia Ramírez Martínez', tickets: '2' },
     { id: "14", invited: 'Benjamín Torres Martínez', tickets: '2' },
     { id: "15", invited: 'Josías Sánchez Sánchez', tickets: '4' },
     { id: "16", invited: 'Asael Álvarez', tickets: '2' },
