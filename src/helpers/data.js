@@ -90,6 +90,22 @@ const data = [
     { id: "89", invited: 'David Cuevas', tickets: '2' },
     { id: "90", invited: 'Familia Jiménez Martínez', tickets: '4' },
     { id: "91", invited: 'Zoé Sánchez', tickets: '2' },
+    { id: "92", invited: 'Familia Jarquín Romero', tickets: '5' },
+    { id: "93", invited: 'Hanna Elizarrarás', tickets: '1' },
+    { id: "94", invited: 'Familia Venegas Ortega', tickets: '4' },
+    { id: "95", invited: 'Familia Hernández Pérez', tickets: '4' },
+    { id: "96", invited: 'Familia Torres Lara', tickets: '3' },
+    { id: "97", invited: 'Santiago Valladolid', tickets: '1' },
+    { id: "98", invited: 'Familia Madrid Rivera', tickets: '3' },
+    { id: "99", invited: 'Donovan Sánchez', tickets: '1' },
+    { id: "100", invited: 'Arlette Hernández', tickets: '1' },
+    { id: "101", invited: 'Valeria Fuentes', tickets: '1' },
+    { id: "102", invited: 'Familia Ortíz Revilla', tickets: '5' },
+    { id: "103", invited: 'Lucero y Familia', tickets: '4' },
+    { id: "104", invited: 'Familia Maldonado Zavala', tickets: '3' },
+    { id: "105", invited: 'Karina y esposo', tickets: '2' },
+    { id: "106", invited: 'Familia García Reyes', tickets: '4' },
+    { id: "107", invited: 'Familia Reyes Jarquín', tickets: '5' },
 ];
 
 export default data;
