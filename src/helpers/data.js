@@ -101,11 +101,12 @@ const data = [
     { id: "100", invited: 'Arlette Hernández', tickets: '1' },
     { id: "101", invited: 'Valeria Fuentes', tickets: '1' },
     { id: "102", invited: 'Familia Ortíz Revilla', tickets: '5' },
-    { id: "103", invited: 'Lucero y Familia', tickets: '4' },
+    { id: "103", invited: 'Lucero y Familia', tickets: '3' },
     { id: "104", invited: 'Familia Maldonado Zavala', tickets: '3' },
     { id: "105", invited: 'Karina y esposo', tickets: '2' },
     { id: "106", invited: 'Familia García Reyes', tickets: '4' },
     { id: "107", invited: 'Familia Reyes Jarquín', tickets: '5' },
+    { id: "108", invited: 'Erick Roldán', tickets: '1' },
 ];
 
 export default data;
