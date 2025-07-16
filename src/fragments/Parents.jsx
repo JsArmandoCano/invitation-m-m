@@ -7,7 +7,7 @@ const Parents = () => {
         <div className="parents">
             <h3>Nuestros padres</h3>
 
-            <div className="content">
+            <div className="content" style={{ overflow: "hidden" }}>
                 <div className="names">
                     <p data-aos="fade-down-right" data-aos-delay="100" style={{ textAlign: "end", paddingRight: "5px" }}>Jorge A. Martínez García</p>
                     <div data-aos="fade-up-right" data-aos-delay="100">

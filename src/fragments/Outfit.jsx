@@ -8,7 +8,7 @@ const Outfit = () => {
         <div className="outfit">
             <h2>Código de vestimenta</h2>
 
-            <div className="content">
+            <div className="content" style={{ overflow: "hidden" }}>
                 <div className="details">
                     <img src={Women} alt="Womens" data-aos="fade-right" />
                     <p>Sugerencias: Vestido floreado de color rosa o azul en tonos pastel.</p>

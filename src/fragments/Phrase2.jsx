@@ -7,8 +7,8 @@ const Phrase2 = () => {
         <div className="pharase">
             <div className="content">
                 <img src={Img} alt="Detail" />
-                <p data-aos="fade-left">Respetamos al Espíritu Santo, por tanto, no se permite el acceso de bebidas alcohólicas ni cigarros.</p>
-                <p data-aos="fade-left">Gracias por su comprensión.</p>
+                <p data-aos="fade-down">Respetamos al Espíritu Santo, por tanto, no se permite el acceso de bebidas alcohólicas ni cigarros.</p>
+                <p data-aos="fade-up">Gracias por su comprensión.</p>
                 <img src={Img} alt="Detail" />
             </div>
         </div>
