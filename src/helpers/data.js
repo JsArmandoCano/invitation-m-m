@@ -107,6 +107,7 @@ const data = [
     { id: "106", invited: 'Familia García Reyes', tickets: '4' },
     { id: "107", invited: 'Familia Reyes Jarquín', tickets: '5' },
     { id: "108", invited: 'Erick Roldán', tickets: '1' },
+    { id: "109", invited: 'Moisés Guerrero Márquez', tickets: '2' },
 ];
 
 export default data;
